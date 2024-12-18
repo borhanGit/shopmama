@@ -1,35 +1,35 @@
 <?php return array (
   'barryvdh/laravel-dompdf' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
-    ),
     'aliases' => 
     array (
       'PDF' => 'Barryvdh\\DomPDF\\Facade',
     ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
+    ),
   ),
   'bumbummen99/shoppingcart' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider',
-    ),
     'aliases' => 
     array (
       'Cart' => 'Gloudemans\\Shoppingcart\\Facades\\Cart',
     ),
+    'providers' => 
+    array (
+      0 => 'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider',
+    ),
   ),
   'devfaysal/laravel-bangladesh-geocode' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Devfaysal\\BangladeshGeocode\\BangladeshGeocodeServiceProvider',
-    ),
     'aliases' => 
     array (
       'BangladeshGeocode' => 'Devfaysal\\BangladeshGeocode\\BangladeshGeocodeFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Devfaysal\\BangladeshGeocode\\BangladeshGeocodeServiceProvider',
     ),
   ),
   'facade/ignition' => 
@@ -59,13 +59,13 @@
   ),
   'intervention/image' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Intervention\\Image\\ImageServiceProvider',
-    ),
     'aliases' => 
     array (
       'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
+    'providers' => 
+    array (
+      0 => 'Intervention\\Image\\ImageServiceProvider',
     ),
   ),
   'laravel/sail' => 
@@ -84,13 +84,13 @@
   ),
   'laravel/socialite' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
-    ),
     'aliases' => 
     array (
       'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
     ),
   ),
   'laravel/tinker' => 
