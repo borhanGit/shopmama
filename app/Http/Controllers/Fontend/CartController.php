@@ -21,6 +21,7 @@ class CartController extends Controller
 
         if (Session::has('coupon')) {
             Session::forget('coupon');
+        
         }
 
         $product = Product::findOrFail($id);
